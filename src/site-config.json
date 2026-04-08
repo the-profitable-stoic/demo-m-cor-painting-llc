@@ -1,0 +1,551 @@
+{
+  "business": {
+    "name": "M-Cor Painting, LLC",
+    "phone": "+17192876807",
+    "category": "house painter",
+    "city": "Colorado Springs",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Colorado Springs Painting Pros",
+      "heroSubline": "M-Cor Painting delivers exceptional results, guaranteed. Transform your home with our expert painting services.",
+      "aboutTitle": "Decades of Painting Excellence in the Pikes Peak Region",
+      "aboutText": [
+        "M-Cor Painting, LLC, started with a simple mission: to provide Colorado Springs homeowners with painting services that exceed expectations. We're not just painters; we're craftsmen dedicated to quality and customer satisfaction.",
+        "Our approach is straightforward: meticulous preparation, premium materials, and skilled execution. We treat every project, big or small, with the same level of care and attention to detail. We believe in clear communication and honest pricing, so you always know what to expect.",
+        "We're proud to be a part of the Colorado Springs community. We support local charities and strive to use eco-friendly practices whenever possible. When you choose M-Cor Painting, you're choosing a local business committed to excellence and integrity."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Highly skilled painters with years of experience delivering flawless finishes."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "We use only top-quality paints and materials for lasting beauty and durability."
+        },
+        {
+          "title": "Detailed Preparation",
+          "description": "Thorough surface preparation ensures optimal paint adhesion and a professional look."
+        },
+        {
+          "title": "Guaranteed Satisfaction",
+          "description": "We stand behind our work and ensure you're completely satisfied with the results."
+        }
+      ],
+      "ctaHeadline": "Ready to Transform Your Home?",
+      "ctaSubline": "Get a free estimate from Colorado Springs' trusted painting professionals. Call M-Cor Painting today!"
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your interior spaces with our expert painting services.",
+        "description": "M-Cor Painting specializes in providing high-quality interior painting services for homes throughout Colorado Springs. Our process begins with a thorough assessment of your walls, ceilings, and trim to identify any imperfections that need addressing. We meticulously prepare surfaces by patching holes, sanding rough spots, and applying primer to ensure optimal paint adhesion. We then apply two coats of premium paint, creating a smooth, even finish that enhances the beauty of your home's interior.\n\nWe understand the unique challenges posed by Colorado's dry climate, which can lead to cracking and peeling paint. That's why we use paints specifically formulated to withstand these conditions, providing long-lasting protection and vibrant color. Whether you're looking to refresh a single room or repaint your entire home, we have the expertise and resources to deliver exceptional results.\n\nOur interior painting services include color consultation, surface preparation, painting walls, ceilings, trim, doors, and cabinets. We also offer specialized finishes, such as faux painting and textured coatings. We take pride in our attention to detail and commitment to customer satisfaction.",
+        "process": [
+          "Step 1: Consultation and Color Selection",
+          "Step 2: Surface Preparation (patching, sanding, priming)",
+          "Step 3: Careful Masking and Protection",
+          "Step 4: Application of Premium Paint (two coats)",
+          "Step 5: Final Inspection and Clean-up"
+        ],
+        "benefits": [
+          "Enhances the beauty and value of your home",
+          "Protects surfaces from wear and tear",
+          "Improves indoor air quality",
+          "Creates a fresh, inviting atmosphere"
+        ],
+        "faq": [
+          {
+            "question": "How long does an interior painting project typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but most interior painting projects take between 2-5 days. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "Do I need to move all of my furniture?",
+            "answer": "We ask that you remove small items and valuables. We will carefully move and cover larger furniture to protect it from paint splatters."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use only premium-quality paints from trusted brands like Sherwin-Williams and Benjamin Moore. We can recommend the best type of paint for your specific needs and preferences."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home's exterior with our professional painting services.",
+        "description": "M-Cor Painting offers comprehensive exterior painting services designed to withstand the harsh Colorado climate. From hail storms to intense UV rays, your home's exterior faces constant challenges. Our experienced team understands the importance of proper preparation and uses only the highest-quality paints and coatings to ensure lasting protection and beauty.\n\nWe begin by thoroughly cleaning and preparing the exterior surfaces, removing any loose paint, dirt, or mildew. We then repair any cracks or damage to the siding, stucco, or trim. Primer is applied to create a uniform surface for optimal paint adhesion. We use specialized techniques to protect your landscaping and ensure a clean, professional finish.\n\nOur exterior painting services include painting siding, trim, doors, windows, fences, and decks. We also offer specialized coatings for stucco and other textured surfaces. We're experienced in working with a variety of exterior materials, including wood, vinyl, aluminum, and fiber cement. We understand the unique needs of Colorado Springs homes and are committed to providing durable, beautiful results.",
+        "process": [
+          "Step 1: Power Washing and Surface Cleaning",
+          "Step 2: Scraping and Sanding Loose Paint",
+          "Step 3: Repairing Cracks and Damage",
+          "Step 4: Priming for Optimal Adhesion",
+          "Step 5: Application of Weather-Resistant Paint"
+        ],
+        "benefits": [
+          "Protects your home from the elements",
+          "Increases curb appeal and property value",
+          "Extends the life of your siding",
+          "Enhances the beauty of your home's exterior"
+        ],
+        "faq": [
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "In Colorado Springs, we recommend repainting your home's exterior every 5-7 years, depending on the type of siding and exposure to the elements. The intense UV light can cause paint to fade and deteriorate more quickly."
+          },
+          {
+            "question": "What type of paint is best for exterior painting in Colorado Springs?",
+            "answer": "We recommend using a high-quality acrylic latex paint specifically formulated for exterior use. These paints are durable, weather-resistant, and provide excellent color retention."
+          },
+          {
+            "question": "Do you offer any warranties on your exterior painting services?",
+            "answer": "Yes, we offer a [Number]-year warranty on our exterior painting services, covering peeling, blistering, and cracking. We stand behind the quality of our workmanship and materials."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Give your kitchen or bathroom a fresh new look with our cabinet refinishing services.",
+        "description": "Instead of replacing your cabinets, consider cabinet refinishing by M-Cor Painting. Refinishing is a cost-effective way to update your kitchen or bathroom without the expense and hassle of a full remodel. We can transform your outdated cabinets with a fresh coat of paint or stain, giving them a modern, stylish look.\n\nOur cabinet refinishing process begins with removing the doors and drawers and thoroughly cleaning the cabinet boxes. We then sand the surfaces to create a smooth, even base for the new finish. Primer is applied to ensure optimal adhesion and prevent bleed-through. We use high-quality paints and stains specifically designed for cabinets, providing a durable, long-lasting finish.\n\nWe offer a wide range of colors and finishes to choose from, allowing you to create the perfect look for your home. Whether you prefer a classic white finish or a bold, modern color, we can help you achieve your vision. Our experienced team pays close attention to detail, ensuring a flawless finish that will enhance the beauty of your kitchen or bathroom.",
+        "process": [
+          "Step 1: Removal of Doors and Drawers",
+          "Step 2: Thorough Cleaning and Degreasing",
+          "Step 3: Sanding to Create a Smooth Surface",
+          "Step 4: Priming for Optimal Adhesion",
+          "Step 5: Application of High-Quality Paint or Stain"
+        ],
+        "benefits": [
+          "Cost-effective alternative to cabinet replacement",
+          "Updates the look of your kitchen or bathroom",
+          "Extends the life of your cabinets",
+          "Increases the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does cabinet refinishing typically take?",
+            "answer": "Cabinet refinishing projects typically take between 3-5 days, depending on the size and complexity of the project. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "Can you match my existing cabinet color?",
+            "answer": "Yes, we can match virtually any color. We use advanced color-matching technology to ensure a perfect match."
+          },
+          {
+            "question": "What type of paint is best for cabinet refinishing?",
+            "answer": "We recommend using a high-quality cabinet enamel paint. These paints are durable, easy to clean, and provide a smooth, even finish."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining & Sealing",
+        "shortDescription": "Protect and beautify your deck with our professional staining and sealing services.",
+        "description": "M-Cor Painting provides expert deck staining and sealing services to protect your deck from the elements and enhance its natural beauty. Colorado's weather extremes, from scorching sun to heavy snow, can take a toll on your deck. Our staining and sealing services help to prevent cracking, warping, and fading, extending the life of your deck and keeping it looking its best.\n\nOur process begins with a thorough cleaning of your deck to remove any dirt, mildew, or loose debris. We then sand the surfaces to create a smooth, even base for the stain or sealant. We use only high-quality stains and sealants that are specifically designed for decks, providing long-lasting protection and vibrant color.\n\nWe offer a wide range of stain colors and finishes to choose from, allowing you to create the perfect look for your deck. Whether you prefer a natural wood finish or a rich, dark stain, we can help you achieve your vision. Our experienced team pays close attention to detail, ensuring a flawless finish that will enhance the beauty of your outdoor living space.",
+        "process": [
+          "Step 1: Thorough Cleaning and Preparation",
+          "Step 2: Sanding to Create a Smooth Surface",
+          "Step 3: Application of High-Quality Stain or Sealant",
+          "Step 4: Inspection and Touch-Ups"
+        ],
+        "benefits": [
+          "Protects your deck from the elements",
+          "Extends the life of your deck",
+          "Enhances the beauty of your outdoor living space",
+          "Prevents cracking, warping, and fading"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "In Colorado Springs, we recommend staining or sealing your deck every 1-2 years, depending on the type of wood and exposure to the elements. Regular maintenance is crucial to protecting your deck from the harsh Colorado climate."
+          },
+          {
+            "question": "What type of stain or sealant is best for my deck?",
+            "answer": "We recommend using a high-quality oil-based or water-based stain or sealant specifically designed for decks. We can assess your deck and recommend the best product for your specific needs."
+          },
+          {
+            "question": "Do I need to move all of my furniture off the deck?",
+            "answer": "Yes, we ask that you remove all furniture and other items from the deck prior to our arrival. This will allow us to thoroughly clean and prepare the surfaces for staining or sealing."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repairs to restore your walls to their original condition.",
+        "description": "M-Cor Painting offers expert drywall repair services to fix holes, cracks, and other damage to your walls and ceilings. Whether you have a small nail hole or a large section of damaged drywall, our experienced team can seamlessly repair the damage and restore your walls to their original condition.\n\nOur drywall repair process begins with assessing the damage and determining the best course of action. We then carefully remove any loose or damaged drywall and replace it with new drywall. We use specialized techniques to tape, mud, and sand the seams, creating a smooth, even surface. Finally, we prime and paint the repaired area to match your existing walls.\n\nWe understand the importance of a seamless repair. Our goal is to make the repaired area virtually invisible. We take pride in our attention to detail and commitment to customer satisfaction.",
+        "process": [
+          "Step 1: Assessment of Damage",
+          "Step 2: Removal of Damaged Drywall",
+          "Step 3: Installation of New Drywall",
+          "Step 4: Taping, Mudding, and Sanding",
+          "Step 5: Priming and Painting"
+        ],
+        "benefits": [
+          "Restores the beauty of your walls and ceilings",
+          "Prevents further damage",
+          "Increases the value of your home",
+          "Creates a smooth, even surface for painting"
+        ],
+        "faq": [
+          {
+            "question": "How much does drywall repair cost?",
+            "answer": "The cost of drywall repair depends on the size and complexity of the damage. We offer free estimates, so please contact us for a quote."
+          },
+          {
+            "question": "How long does drywall repair typically take?",
+            "answer": "Drywall repair projects typically take between 1-3 days, depending on the size and complexity of the damage. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "Will the repaired area match my existing walls?",
+            "answer": "Yes, we take great care to match the texture and color of your existing walls. We use specialized techniques to ensure a seamless repair."
+          }
+        ]
+      },
+      {
+        "slug": "fence-staining",
+        "name": "Fence Staining",
+        "shortDescription": "Protect your fence from weather damage with professional staining services.",
+        "description": "M-Cor Painting offers fence staining services to protect your fence from the harsh Colorado climate and enhance its natural beauty. A properly stained fence can withstand the elements, preventing warping, cracking, and fading. We use only high-quality stains specifically designed for fences, providing long-lasting protection and vibrant color.\n\nOur fence staining process begins with cleaning the fence to remove any dirt, mildew, or loose debris. We then apply the stain evenly, ensuring complete coverage. We offer a wide range of stain colors to choose from, allowing you to create the perfect look for your property. Our experienced team pays close attention to detail, ensuring a flawless finish that will enhance the beauty and value of your home.\n\nWe understand that fences in Colorado Springs are susceptible to damage from hail and intense sunlight, making staining a necessity for longevity.",
+        "process": [
+          "Step 1: Fence Cleaning",
+          "Step 2: Stain Application",
+          "Step 3: Inspection and Touch-Ups"
+        ],
+        "benefits": [
+          "Protects your fence from the elements",
+          "Extends the life of your fence",
+          "Enhances the beauty of your property",
+          "Prevents warping, cracking, and fading"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my fence?",
+            "answer": "In Colorado Springs, we recommend staining your fence every 2-3 years, depending on the type of wood and exposure to the elements."
+          },
+          {
+            "question": "What type of stain is best for my fence?",
+            "answer": "We recommend using a high-quality oil-based or water-based stain specifically designed for fences. We can assess your fence and recommend the best product for your specific needs."
+          },
+          {
+            "question": "Do I need to do anything to prepare my fence for staining?",
+            "answer": "We ask that you clear any vegetation or other obstacles from around the fence prior to our arrival. We will handle the cleaning and preparation of the fence itself."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Colorado Springs",
+        "slug": "colorado-springs-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC is proud to offer professional painting services to the residents and businesses of Colorado Springs. From the historic Old Colorado City to the newer developments in Briargate, we understand the unique architectural styles and environmental factors that affect paint durability in this region. We are committed to providing high-quality workmanship and exceptional customer service to ensure your complete satisfaction.\n\nOur team of experienced painters uses only premium paints and materials to protect your investment and enhance the beauty of your home or business. Whether you need interior painting, exterior painting, or specialty finishes, we have the expertise to handle any project, big or small. We are fully licensed and insured, and we always strive to exceed your expectations.",
+        "localContext": "Colorado Springs is a vibrant city known for its stunning natural beauty, including Pikes Peak and Garden of the Gods. The area experiences diverse weather conditions, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Manitou Springs",
+          "Fountain",
+          "Monument"
+        ]
+      },
+      {
+        "city": "Manitou Springs",
+        "slug": "manitou-springs-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC extends its expert painting services to the charming town of Manitou Springs. Known for its historic architecture and natural mineral springs, Manitou Springs requires a painting company that understands the unique challenges of preserving and enhancing older structures. We are dedicated to providing meticulous attention to detail and using techniques that respect the integrity of your property.\n\nWe offer a wide range of services tailored to the specific needs of Manitou Springs residents, including historic preservation painting, interior and exterior painting, and specialized coatings for stucco and other exterior surfaces. Our commitment to quality and customer satisfaction makes us the ideal choice for your next painting project.",
+        "localContext": "Manitou Springs is a historic town nestled at the base of Pikes Peak, known for its unique architecture and vibrant arts scene. The area's proximity to natural springs creates a humid environment that requires specialized paint solutions.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Cascade",
+          "Green Mountain Falls"
+        ]
+      },
+      {
+        "city": "Fountain",
+        "slug": "fountain-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC is pleased to serve the growing community of Fountain, Colorado. As a rapidly developing area, Fountain presents a mix of new construction and established homes, each with its own unique painting needs. We offer comprehensive painting services to enhance the beauty and value of your property.\n\nFrom new home painting to repainting projects, our team is equipped to handle any job with precision and care. We understand the importance of using high-quality materials and proven techniques to ensure long-lasting results. Contact us today for a free estimate and experience the M-Cor Painting, LLC difference.",
+        "localContext": "Fountain is a growing community located south of Colorado Springs, known for its family-friendly atmosphere and affordable housing. The area experiences a semi-arid climate, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Security-Widefield",
+          "Peyton"
+        ]
+      },
+      {
+        "city": "Monument",
+        "slug": "monument-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC provides exceptional painting services to the residents of Monument, Colorado. This beautiful town, known for its stunning views and close-knit community, deserves a painting company that understands its unique character. We are committed to delivering top-quality workmanship and outstanding customer service.\n\nWhether you need interior painting, exterior painting, or deck staining, our team has the expertise to handle any project. We use only premium paints and materials to ensure lasting beauty and protection for your home. Trust M-Cor Painting, LLC to transform your property into a work of art.",
+        "localContext": "Monument is a picturesque town located north of Colorado Springs, known for its stunning views of the Rocky Mountains and its family-friendly atmosphere. The area experiences cold winters and warm summers, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Palmer Lake",
+          "Woodmoor"
+        ]
+      },
+      {
+        "city": "Palmer Lake",
+        "slug": "palmer-lake-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC proudly serves the charming town of Palmer Lake, Colorado. Nestled in the foothills of the Rocky Mountains, Palmer Lake offers a unique blend of natural beauty and small-town charm. We are dedicated to providing painting services that enhance the beauty and protect the value of your home.\n\nOur team is experienced in handling a variety of painting projects, from interior renovations to exterior restorations. We understand the importance of using high-quality materials and proven techniques to ensure lasting results. Let M-Cor Painting, LLC be your trusted partner for all your painting needs in Palmer Lake.",
+        "localContext": "Palmer Lake is a scenic town located north of Colorado Springs, known for its beautiful lake and outdoor recreational opportunities. The area experiences significant snowfall in the winter, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Monument",
+          "Woodmoor",
+          "Colorado Springs"
+        ]
+      },
+      {
+        "city": "Security-Widefield",
+        "slug": "security-widefield-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC is committed to providing top-notch painting services to the communities of Security and Widefield. As established neighborhoods with a diverse range of homes, Security-Widefield requires a painting company that understands its unique needs. We are dedicated to delivering exceptional results and outstanding customer service.\n\nWhether you need interior painting, exterior painting, or fence staining, our team has the expertise to handle any project. We use only premium paints and materials to ensure lasting beauty and protection for your home. Trust M-Cor Painting, LLC to transform your property into a showplace.",
+        "localContext": "Security-Widefield is a residential area located south of Colorado Springs, known for its affordable housing and convenient access to amenities. The area experiences a semi-arid climate, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Fountain",
+          "Colorado Springs",
+          "Stratmoor"
+        ]
+      },
+      {
+        "city": "Woodmoor",
+        "slug": "woodmoor-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC is proud to offer professional painting services to the residents of Woodmoor, Colorado. Known for its upscale homes and wooded landscapes, Woodmoor requires a painting company that understands the importance of quality and attention to detail. We are committed to exceeding your expectations.\n\nFrom interior painting to exterior staining, our team has the expertise to handle any project with precision and care. We use only premium paints and materials to ensure lasting beauty and protection for your home. Let M-Cor Painting, LLC enhance the beauty and value of your Woodmoor property.",
+        "localContext": "Woodmoor is an upscale residential community located north of Colorado Springs, known for its large homes and wooded lots. The area experiences significant snowfall in the winter, requiring durable and weather-resistant paint solutions.",
+        "nearbyAreas": [
+          "Monument",
+          "Palmer Lake",
+          "Gleneagle"
+        ]
+      },
+      {
+        "city": "Black Forest",
+        "slug": "black-forest-co",
+        "state": "CO",
+        "content": "M-Cor Painting, LLC extends its expert painting services to the unique community of Black Forest, Colorado. Characterized by its dense ponderosa pine forest and large acreage properties, Black Forest requires a painting company experienced in handling the challenges of rural settings. We are dedicated to providing reliable and professional service.\n\nWe offer a range of services tailored to the specific needs of Black Forest residents, including exterior painting for homes exposed to the elements, interior painting for log homes and custom builds, and specialized coatings for fences and outbuildings. Our commitment to quality and customer satisfaction makes us the ideal choice for your next painting project.",
+        "localContext": "Black Forest is a rural community located northeast of Colorado Springs, known for its dense ponderosa pine forest and large acreage properties. The area is prone to wildfires, requiring fire-resistant paint and coatings.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Peyton",
+          "Falcon"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah J.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "M-Cor Painting did an amazing job painting the interior of our home in Briargate. They were professional, efficient, and the quality of their work was outstanding. Our walls look brand new! Highly recommend them.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired M-Cor Painting to paint our house in Old Colorado City. The crew was punctual and worked hard. There were a couple of minor touch-ups needed, but they addressed them promptly and professionally. Overall, a good experience.",
+        "date": "2024-10-28"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "Our kitchen cabinets needed a serious update. M-Cor Painting refinished them beautifully! They look like brand new cabinets. The price was reasonable, and the service was excellent. Thank you!",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Deck Staining & Sealing",
+        "text": "M-Cor Painting did a fantastic job staining and sealing our deck. They were meticulous in their preparation and application, and the deck looks amazing. We're confident it will be well-protected from the Colorado weather. Great job!",
+        "date": "2024-08-12"
+      },
+      {
+        "name": "Jessica M.",
+        "rating": 4,
+        "service": "Drywall Repair",
+        "text": "We had a large hole in our drywall from a plumbing repair. M-Cor Painting patched it seamlessly. You can't even tell there was ever a hole there. Very professional and reasonably priced.",
+        "date": "2024-07-20"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 5,
+        "service": "Fence Staining",
+        "text": "M-Cor Painting stained our fence, and it looks fantastic! The color is perfect, and the stain is evenly applied. They were prompt, courteous, and did a great job cleaning up afterward. Highly recommend!",
+        "date": "2024-06-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "M-Cor Painting | Colorado Springs Painting",
+        "description": "Expert house painters in Colorado Springs, CO. Interior, exterior, cabinets, decks. Free estimates!"
+      },
+      "about": {
+        "title": "About M-Cor Painting | Colorado Springs, CO",
+        "description": "Learn about M-Cor Painting's commitment to quality and customer satisfaction in Colorado Springs and surrounding areas."
+      },
+      "services": {
+        "title": "M-Cor Painting Services | Colorado Springs",
+        "description": "Comprehensive painting services: interior, exterior, cabinet refinishing, deck staining, and more in Colorado Springs."
+      },
+      "contact": {
+        "title": "Contact M-Cor Painting | Colorado Springs",
+        "description": "Get a free painting estimate in Colorado Springs. Call or email M-Cor Painting today!"
+      },
+      "reviews": {
+        "title": "M-Cor Painting Reviews | Colorado Springs",
+        "description": "Read reviews from satisfied M-Cor Painting customers in Colorado Springs. See why we're the trusted choice."
+      },
+      "service-areas": {
+        "title": "M-Cor Painting Service Areas | CO",
+        "description": "M-Cor Painting serves Colorado Springs and surrounding areas. Find out if we service your city!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "fence-staining": "/images/service-fence-staining.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-staining": {
+        "src": "/images/service-fence-staining.webp",
+        "srcset": "/images/service-fence-staining-400w.webp 400w, /images/service-fence-staining-800w.webp 800w, /images/service-fence-staining-1200w.webp 1200w, /images/service-fence-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
